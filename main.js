@@ -10,6 +10,9 @@ let img=[pic1.jpg,pic2.jpg,pic3.jpg,pic4.jpg,pic5.jpg]
 /* Declaring the alternative text for each image file */
 
 /* Looping through images */
+for(let i=0;i<5;i++){
+  console.log(img[i]);
+}
 
 const newImage = document.createElement('img');
 newImage.setAttribute('src', xxx);
