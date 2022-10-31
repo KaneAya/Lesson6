@@ -1,18 +1,27 @@
-const displayedImage = document.querySelector('.displayed-img');
-const thumbBar = document.querySelector('.thumb-bar');
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
 
-const btn = document.querySelector('button');
-const overlay = document.querySelector('.overlay');
+    <title>Image gallery</title>
 
-/* Declaring the array of image filenames */
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
 
-/* Declaring the alternative text for each image file */
+  <body>
+    <h1>Image gallery example</h1>
 
-/* Looping through images */
+    <div class="full-img">
+      <img class="displayed-img" src="images/pic1.jpg" alt="Closeup of a human eye">
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+    </div>
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', xxx);
-newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
+    <div class="thumb-bar">
 
-/* Wiring up the Darken/Lighten button */
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
