@@ -15,6 +15,6 @@ for(let i=0;i<5;i++){
 }
 
 const newImage = document.createElement('img');
-newImage.setAttribute('src', "images/pic.jpg");
+newImage.setAttribute('src', "images/pic2.jpg");
 newImage.setAttribute('alt', xxx);
-thumbBar.appendChild(newImage);
+thumbBar.appendChild(newImage2);
