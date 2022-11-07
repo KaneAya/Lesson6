@@ -12,7 +12,9 @@ let img=[pic1.jpg,pic2.jpg,pic3.jpg,pic4.jpg,pic5.jpg]
 /* Looping through images */
 for(let i=1;i<=5;i++){
   const newImage = document.createElement('img');
-  newImage.setAttribute('src', `images/picS{i}.jpg`);
-  newImage.setAttribute('alt', xxx);
+  newImage.setAttribute("src", `images/picS{i}.jpg`);
+  newImage.setAttribute('click', ()=>{
+    displayImages.setAttribute("src",src);
+  });
   thumbBar.appendChild(newImage);
 }
